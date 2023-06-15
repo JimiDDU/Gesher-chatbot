@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-weight: 200;
+    font-size: 24px;
+}
+
+.box{
+    padding: 8px 30px;
+}
+
+.box1{
+    background-color: #008000;
+}
+.box2{
+    background-color: #002A15;
+}
+.box3{
+    background-color: #2A2400;
+}
+.box4{
+    background-color: #D43900;
+}
+.box5{
+    background-color: #007FAA;
+}
+.box6{
+    background-color: #00202A;
+}
+.box7{
+    background-color: #32050E;
+}
+.box8{
+    background-color: #D50000;
+}
+.box9{
+    background-color: #8A2BE2;
+}
+.box10{
+    background-color: #360000;
+}
+
+.box11{
+    grid-column: 1 / span 2;
+    background-color: #000060;
+}
+
+a{
+    text-decoration: none;
+    color: white
+}
+
+.box:hover p{
+    font-weight: bold;
+    transition: all;
+    transition-duration: 700ms;
+    transform: rotateX(360deg);
+}
+
+
+@media screen and (max-width:486px) {
+    .box{
+        padding: 1.646090534979424vw 6.17283950617284vw;
+    }
+    .main{
+        font-size: 4.938271604938272vw;
+    }
+    .box img{
+        width: 20.5761316872428vw;
+        height: 20.5761316872428vw;
+    }
+}
