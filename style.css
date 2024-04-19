@@ -40,7 +40,7 @@ a{
     height: calc(100vh/6);
     width: 50vw;
     text-decoration: none;
-    color: white
+    color: white !important;
 }
 /* 2.3359375   14.015625     2.568561872909699 */
 
